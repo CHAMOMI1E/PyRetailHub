@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyretailhub"
+version = "0.1.0"
+description = ""
+authors = ["CHAMOMILE <CHAMOM2LES@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+httpx = "^0.28.1"
+pydantic-settings = "^2.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
