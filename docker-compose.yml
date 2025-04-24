@@ -1,0 +1,12 @@
+version: "3"
+services:
+  service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    working_dir: /PyRetailHub
+    command: sh -c "python ."
+
